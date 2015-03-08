@@ -1,0 +1,9 @@
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\bin\web1.dll.config
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\bin\web1.dll
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\bin\web1.pdb
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\bin\web1.xml
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\obj\Debug\web1.Resources.resources
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\obj\Debug\web1.vbproj.GenerateResource.Cache
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\obj\Debug\web1.dll
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\obj\Debug\web1.xml
+c:\users\phat\documents\visual studio 2013\Projects\web1\web1\obj\Debug\web1.pdb
