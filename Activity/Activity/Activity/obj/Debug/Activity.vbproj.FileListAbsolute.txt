@@ -1,0 +1,9 @@
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\bin\Activity.dll.config
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\bin\Activity.dll
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\bin\Activity.pdb
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\bin\Activity.xml
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\obj\Debug\Activity.Resources.resources
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\obj\Debug\Activity.vbproj.GenerateResource.Cache
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\obj\Debug\Activity.dll
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\obj\Debug\Activity.xml
+c:\users\std\documents\visual studio 2013\Projects\Activity\Activity\obj\Debug\Activity.pdb
