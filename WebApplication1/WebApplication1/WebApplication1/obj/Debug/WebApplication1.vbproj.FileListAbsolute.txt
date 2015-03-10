@@ -1,2 +1,0 @@
-c:\users\std\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Resources.resources
-c:\users\std\documents\visual studio 2013\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.vbproj.GenerateResource.Cache
