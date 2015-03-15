@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{706078F4-B751-48FB-92AA-D9389F68555F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Volunteer</RootNamespace>
+    <AssemblyName>Volunteer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Volunteer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Volunteer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="activity.aspx" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.LDF">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
+    <Content Include="contact.aspx" />
+    <Content Include="Corona_Skin_2.swf" />
+    <Content Include="cover\137120908752.jpg" />
+    <Content Include="cover\bg.jpg" />
+    <Content Include="cover\body.jpg" />
+    <Content Include="cover\box.png" />
+    <Content Include="cover\button_enter_site.png" />
+    <Content Include="cover\Cute-Funny-Minions-Cartoon-Wallpapers.png" />
+    <Content Include="cover\Default.aspx" />
+    <Content Include="cover\ee.png" />
+    <Content Include="cover\enter-site.png" />
+    <Content Include="cover\enter.png" />
+    <Content Include="cover\HD1080.flv" />
+    <Content Include="cover\HDfull.flv" />
+    <Content Include="cover\logo.png" />
+    <Content Include="cover\pans.jpg" />
+    <Content Include="cover\style.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\style2.css" />
+    <Content Include="css\styleRe.css" />
+    <Content Include="Data.aspx" />
+    <Content Include="donate.aspx" />
+    <Content Include="FLVPlayer_Progressive.swf" />
+    <Content Include="history.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="image.aspx" />
+    <Content Include="images\aspnet.png" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\block-news-tail.gif" />
+    <Content Include="images\body.jpg" />
+    <Content Include="images\box.png" />
+    <Content Include="images\button-tail.gif" />
+    <Content Include="images\button1.png" />
+    <Content Include="images\button2.png" />
+    <Content Include="images\button3.png" />
+    <Content Include="images\cooltext115290335589455.png" />
+    <Content Include="images\cooltext115291965978802.png" />
+    <Content Include="images\cooltext115563590106036.png" />
+    <Content Include="images\cooltext115563590174555.png" />
+    <Content Include="images\cooltext115565166409555.png" />
+    <Content Include="images\cooltext115565166475371.png" />
+    <Content Include="images\donate.jpg" />
+    <Content Include="images\fb.png" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\kwan.jpg" />
+    <Content Include="images\logo r-sa.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\member15.png" />
+    <Content Include="images\member16.png" />
+    <Content Include="images\member17.png" />
+    <Content Include="images\member18.png" />
+    <Content Include="images\numb-1.gif" />
+    <Content Include="images\numb-2.gif" />
+    <Content Include="images\numb-3.gif" />
+    <Content Include="images\psu.png" />
+    <Content Include="images\rsa1.png" />
+    <Content Include="images\rsa5vit.jpg" />
+    <Content Include="images\search-button.png" />
+    <Content Include="images\sharetochang2.jpg" />
+    <Content Include="images\sheartochang3.jpg" />
+    <Content Include="images\slider-1.jpg" />
+    <Content Include="images\slider-2.jpg" />
+    <Content Include="images\slider-3.jpg" />
+    <Content Include="images\slider-4.jpg" />
+    <Content Include="images\slider-4.png" />
+    <Content Include="images\slider-control.png" />
+    <Content Include="images\volunteerseed2015.jpg" />
+    <Content Include="Img1\01.jpg" />
+    <Content Include="Img1\02.jpg" />
+    <Content Include="Img1\03.jpg" />
+    <Content Include="Img1\04.jpg" />
+    <Content Include="Img1\05.jpg" />
+    <Content Include="Img1\06.jpg" />
+    <Content Include="Img1\07.jpg" />
+    <Content Include="Img1\08.jpg" />
+    <Content Include="Img1\09.jpg" />
+    <Content Include="Img1\10.jpg" />
+    <Content Include="Img1\11.jpg" />
+    <Content Include="Img1\12.jpg" />
+    <Content Include="Img1\13.jpg" />
+    <Content Include="Img1\14.jpg" />
+    <Content Include="Img1\15.jpg" />
+    <Content Include="Img1\16.jpg" />
+    <Content Include="Img1\17.jpg" />
+    <Content Include="Img1\18.jpg" />
+    <Content Include="Img1\19.jpg" />
+    <Content Include="Img1\20.jpg" />
+    <Content Include="Img2\1.jpg" />
+    <Content Include="Img2\2.jpg" />
+    <Content Include="Img2\3.jpg" />
+    <Content Include="Img2\4.jpg" />
+    <Content Include="Img3\1.jpg" />
+    <Content Include="Img3\2.jpg" />
+    <Content Include="Img3\3.jpg" />
+    <Content Include="Img3\4.jpg" />
+    <Content Include="Img3\5.jpg" />
+    <Content Include="Img4\1.jpg" />
+    <Content Include="Img4\10.jpg" />
+    <Content Include="Img4\11.jpg" />
+    <Content Include="Img4\12.jpg" />
+    <Content Include="Img4\13.jpg" />
+    <Content Include="Img4\14.jpg" />
+    <Content Include="Img4\15.jpg" />
+    <Content Include="Img4\16.jpg" />
+    <Content Include="Img4\17.jpg" />
+    <Content Include="Img4\2.jpg" />
+    <Content Include="Img4\3.jpg" />
+    <Content Include="Img4\4.jpg" />
+    <Content Include="Img4\5.jpg" />
+    <Content Include="Img4\6.jpg" />
+    <Content Include="Img4\7.jpg" />
+    <Content Include="Img4\8.jpg" />
+    <Content Include="Img4\9.jpg" />
+    <Content Include="js\cufon-replace.js" />
+    <Content Include="js\cufon-yui.js" />
+    <Content Include="js\FF-cash.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\jquery-1.6.min.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\Open_Sans_400.font.js" />
+    <Content Include="js\Open_Sans_Light_300.font.js" />
+    <Content Include="js\Open_Sans_Semibold_600.font.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\tms-0.3.js" />
+    <Content Include="js\tms_presets.js" />
+    <Content Include="Member.aspx" />
+    <Content Include="member15.aspx" />
+    <Content Include="member16.aspx" />
+    <Content Include="member17.aspx" />
+    <Content Include="member18.aspx" />
+    <Content Include="Pix\1296125103.png" />
+    <Content Include="Pix\2014-11-26_23-14-10.png" />
+    <Content Include="Pix\4ov35.png" />
+    <Content Include="Pix\5cb4a0aaf5e81da0f9fde4b34b50aabe.jpg" />
+    <Content Include="Pix\Despicable-Me-2-Phil-Cute-Minion-Image.jpg" />
+    <Content Include="Pix\ffff.png" />
+    <Content Include="Pix\foto-minion-stuart-en-gru-2,-mi-villano-favorito-795.jpg" />
+    <Content Include="Pix\gv-62.png" />
+    <Content Include="Pix\HEas.png" />
+    <Content Include="Pix\jjjj.jpg" />
+    <Content Include="Pix\Map %281%29.png" />
+    <Content Include="Pix\Map.png" />
+    <Content Include="Pix\minions19.jpg" />
+    <Content Include="Pix\Moss.png" />
+    <Content Include="Pix\Nack.png" />
+    <Content Include="Pix\qgv63.png" />
+    <Content Include="Pix\Tae.png" />
+    <Content Include="Pix\vision.png" />
+    <Content Include="Pix\ดาวน์โหลด.jpg" />
+    <Content Include="Scripts\expressInstall.swf" />
+    <Content Include="Scripts\swfobject_modified.js" />
+    <Content Include="seminar.aspx" />
+    <Content Include="Sharetochange.aspx" />
+    <Content Include="SharetochangeIII.aspx" />
+    <Content Include="Volunteerseed2015.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activity.aspx.vb">
+      <DependentUpon>activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.vb">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Data.aspx.vb">
+      <DependentUpon>Data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="donate.aspx.vb">
+      <DependentUpon>donate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="history.aspx.vb">
+      <DependentUpon>history.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="image.aspx.vb">
+      <DependentUpon>image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Member.aspx.vb">
+      <DependentUpon>Member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="member15.aspx.vb">
+      <DependentUpon>member15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="member16.aspx.vb">
+      <DependentUpon>member16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="member17.aspx.vb">
+      <DependentUpon>member17.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="member18.aspx.vb">
+      <DependentUpon>member18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MasterPage2.master.designer.vb">
+      <DependentUpon>MasterPage2.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage2.master.vb">
+      <DependentUpon>MasterPage2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seminar.aspx.vb">
+      <DependentUpon>seminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sharetochange.aspx.vb">
+      <DependentUpon>Sharetochange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SharetochangeIII.aspx.vb">
+      <DependentUpon>SharetochangeIII.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Volunteerseed2015.aspx.vb">
+      <DependentUpon>Volunteerseed2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\style.css.bak" />
+    <Content Include="images\OGLdpf.log" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="MasterPage2.master" />
+    <Content Include="Pix\foto-minion-stuart-en-gru-2,-mi-villano-favorito-795.psd" />
+    <Content Include="Pix\Untitled-10.psd" />
+    <Content Include="Pix\Untitled-11.psd" />
+    <Content Include="Pix\Untitled-12.psd" />
+    <Content Include="Pix\Untitled-13.psd" />
+    <Content Include="Pix\Untitled-3.psd" />
+    <Content Include="Pix\Untitled-8.psd" />
+    <Content Include="Pix\Untitled-9.psd" />
+    <Content Include="scss\style.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9521</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9521/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

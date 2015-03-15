@@ -1,0 +1,2 @@
+c:\users\phat\documents\visual studio 2013\Projects\Volunteer\Volunteer\obj\Debug\Volunteer.Resources.resources
+c:\users\phat\documents\visual studio 2013\Projects\Volunteer\Volunteer\obj\Debug\Volunteer.vbproj.GenerateResource.Cache
