@@ -82,6 +82,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="activity.aspx" />
+    <Content Include="addactivity.aspx" />
+    <Content Include="addfile.aspx" />
+    <Content Include="addhistory.aspx" />
+    <Content Include="addimages.aspx" />
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.LDF">
       <DependentUpon>Database.mdf</DependentUpon>
@@ -110,11 +114,17 @@
     <Content Include="css\style2.css" />
     <Content Include="css\styleRe.css" />
     <Content Include="Data.aspx" />
+    <Content Include="Defult.aspx" />
     <Content Include="donate.aspx" />
+    <Content Include="editactivity.aspx" />
+    <Content Include="editfile.aspx" />
+    <Content Include="edithistory.aspx" />
+    <Content Include="editimages.aspx" />
     <Content Include="FLVPlayer_Progressive.swf" />
     <Content Include="history.aspx" />
     <Content Include="home.aspx" />
     <Content Include="image.aspx" />
+    <Content Include="images\active-search.png" />
     <Content Include="images\aspnet.png" />
     <Content Include="images\bg.jpg" />
     <Content Include="images\block-news-tail.gif" />
@@ -129,7 +139,14 @@
     <Content Include="images\cooltext115563590106036.png" />
     <Content Include="images\cooltext115563590174555.png" />
     <Content Include="images\cooltext115565166409555.png" />
+    <Content Include="images\cooltext115565166439941.png" />
     <Content Include="images\cooltext115565166475371.png" />
+    <Content Include="images\cooltext115655356613496.png" />
+    <Content Include="images\cooltext115655356650508.png" />
+    <Content Include="images\cooltext115655356651147.png" />
+    <Content Include="images\cooltext115655356658231.png" />
+    <Content Include="images\cooltext115655356659325.png" />
+    <Content Include="images\cooltext115655356672602.png" />
     <Content Include="images\donate.jpg" />
     <Content Include="images\fb.png" />
     <Content Include="images\images.jpg" />
@@ -202,6 +219,34 @@
     <Content Include="Img4\7.jpg" />
     <Content Include="Img4\8.jpg" />
     <Content Include="Img4\9.jpg" />
+    <Content Include="img\10406359_867625083296480_9154145367059658679_n.jpg" />
+    <Content Include="img\10446647_867642616628060_4143008803596005058_n.jpg" />
+    <Content Include="img\10696289_867625189963136_8360499027003302813_n.jpg" />
+    <Content Include="img\10945630_867635579962097_5525951213785887333_n.jpg" />
+    <Content Include="img\10952242_867629926629329_3366875729524956720_n.jpg" />
+    <Content Include="img\10968513_867639116628410_8264086534429258330_n.jpg" />
+    <Content Include="img\1185263_498772146867400_211981109_n.jpg" />
+    <Content Include="img\1208914_556050557776936_257138008_n.jpg" />
+    <Content Include="img\1234180_556050597776932_1005378107_n.jpg" />
+    <Content Include="img\1238164_498771743534107_872045437_n.jpg" />
+    <Content Include="img\1240454_498771626867452_344829863_n.jpg" />
+    <Content Include="img\1454715_867627369962918_3544897932745144887_n.jpg" />
+    <Content Include="img\264141_416543488394311_965273449_n.jpg" />
+    <Content Include="img\299870_494203370638655_135501163_n.jpg" />
+    <Content Include="img\320380_3520001678529_362726110_n.jpg" />
+    <Content Include="img\396096_412672482126163_1013818754_n.jpg" />
+    <Content Include="img\429943_412672742126137_820768530_n.jpg" />
+    <Content Include="img\553201_4642340456297_1621451408_n.jpg" />
+    <Content Include="img\555152_341333469316474_189478525_n.jpg" />
+    <Content Include="img\58481_428728813881037_268237094_n.jpg" />
+    <Content Include="img\730547_535609923123934_187838617_n.jpg" />
+    <Content Include="img\9.jpg" />
+    <Content Include="img\99.jpg" />
+    <Content Include="img\999.jpg" />
+    <Content Include="img\9999.jpg" />
+    <Content Include="img\99999.jpg" />
+    <Content Include="img\cooltext115605135459929.png" />
+    <Content Include="img\cooltext115605135497378.png" />
     <Content Include="js\cufon-replace.js" />
     <Content Include="js\cufon-yui.js" />
     <Content Include="js\FF-cash.js" />
@@ -214,11 +259,18 @@
     <Content Include="js\PIE.htc" />
     <Content Include="js\tms-0.3.js" />
     <Content Include="js\tms_presets.js" />
+    <Content Include="manageActivity.aspx" />
+    <Content Include="managefile.aspx" />
+    <Content Include="manageHistory.aspx" />
+    <Content Include="manageHome.aspx" />
+    <Content Include="manageImage.aspx" />
+    <Content Include="manageMember.aspx" />
     <Content Include="Member.aspx" />
     <Content Include="member15.aspx" />
     <Content Include="member16.aspx" />
     <Content Include="member17.aspx" />
     <Content Include="member18.aspx" />
+    <Content Include="Memberlogin.aspx" />
     <Content Include="Pix\1296125103.png" />
     <Content Include="Pix\2014-11-26_23-14-10.png" />
     <Content Include="Pix\4ov35.png" />
@@ -238,17 +290,35 @@
     <Content Include="Pix\Tae.png" />
     <Content Include="Pix\vision.png" />
     <Content Include="Pix\ดาวน์โหลด.jpg" />
+    <Content Include="register.aspx" />
     <Content Include="Scripts\expressInstall.swf" />
     <Content Include="Scripts\swfobject_modified.js" />
     <Content Include="seminar.aspx" />
     <Content Include="Sharetochange.aspx" />
     <Content Include="SharetochangeIII.aspx" />
+    <Content Include="Userlogin.aspx" />
     <Content Include="Volunteerseed2015.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="activity.aspx.vb">
       <DependentUpon>activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addactivity.aspx.vb">
+      <DependentUpon>addactivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addfile.aspx.vb">
+      <DependentUpon>addfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addhistory.aspx.vb">
+      <DependentUpon>addhistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addimages.aspx.vb">
+      <DependentUpon>addimages.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="contact.aspx.vb">
@@ -259,8 +329,31 @@
       <DependentUpon>Data.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Defult.aspx.designer.vb">
+      <DependentUpon>Defult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Defult.aspx.vb">
+      <DependentUpon>Defult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="donate.aspx.vb">
       <DependentUpon>donate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editactivity.aspx.vb">
+      <DependentUpon>editactivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editfile.aspx.vb">
+      <DependentUpon>editfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edithistory.aspx.vb">
+      <DependentUpon>edithistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editimages.aspx.vb">
+      <DependentUpon>editimages.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="history.aspx.vb">
@@ -273,6 +366,30 @@
     </Compile>
     <Compile Include="image.aspx.vb">
       <DependentUpon>image.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageActivity.aspx.vb">
+      <DependentUpon>manageActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="managefile.aspx.vb">
+      <DependentUpon>managefile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageHistory.aspx.vb">
+      <DependentUpon>manageHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageHome.aspx.vb">
+      <DependentUpon>manageHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageImage.aspx.vb">
+      <DependentUpon>manageImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manageMember.aspx.vb">
+      <DependentUpon>manageMember.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Member.aspx.vb">
@@ -293,6 +410,13 @@
     </Compile>
     <Compile Include="member18.aspx.vb">
       <DependentUpon>member18.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Memberlogin.aspx.designer.vb">
+      <DependentUpon>Memberlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Memberlogin.aspx.vb">
+      <DependentUpon>Memberlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -321,6 +445,10 @@
       <DependentUpon>MasterPage2.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="register.aspx.vb">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="seminar.aspx.vb">
       <DependentUpon>seminar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -331,6 +459,10 @@
     </Compile>
     <Compile Include="SharetochangeIII.aspx.vb">
       <DependentUpon>SharetochangeIII.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Userlogin.aspx.vb">
+      <DependentUpon>Userlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Volunteerseed2015.aspx.vb">

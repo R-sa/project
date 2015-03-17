@@ -24,7 +24,7 @@ Partial Class register
 
         conn.Close()
 
-        Response.Redirect("Default.aspx")
+        Response.Redirect("Userlogin.aspx")
 
     End Sub
 End Class

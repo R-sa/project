@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage2.master" AutoEventWireup="false" CodeFile="product Admin.aspx.vb" Inherits="product" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage2.master" AutoEventWireup="false" CodeFile="product.aspx.vb" Inherits="product" %>
 
 <%-- Add content controls here --%>
 <asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">

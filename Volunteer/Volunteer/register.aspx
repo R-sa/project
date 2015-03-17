@@ -144,6 +144,5 @@
     
     </div>
     </form>
-    <div id="apDiv2"><img src="images/minions_png_by_militinistaeditions-d6tdes8.png" width="1024" height="548" /></div>
-</body>
+    </body>
 </html>
