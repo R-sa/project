@@ -1,16 +1,12 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage2.master" AutoEventWireup="false" CodeFile="managefile.aspx.vb"
-    Inherits="server=localhost;user id=root;password=root;persistsecurityinfo=True;database=db_admin;allowbatch=True" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage2.Master" AutoEventWireup="false" CodeFile="managefile.aspx.vb" Inherits="managefile" %>
 
 <%-- Add content controls here --%>
-<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="ContentPlaceHolder2">
+<asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder2">
+    <asp:HyperLink ID="Add" runat="server" NavigateUrl="~/addfile.aspx">เพิ่ม</asp:HyperLink>
+    <br />
+    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/editfile.aspx">แก้ไข</asp:HyperLink>
+    <br />
     <p>
-        &nbsp;
-    </p>
-    <p>
-        &nbsp;
-    </p>
-    <p>
-        <br />
     </p>
 </asp:Content>
 

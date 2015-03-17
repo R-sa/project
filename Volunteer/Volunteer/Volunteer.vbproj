@@ -87,6 +87,10 @@
     <Content Include="addhistory.aspx" />
     <Content Include="addimages.aspx" />
     <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\Database_log.LDF">
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
@@ -114,6 +118,8 @@
     <Content Include="css\style2.css" />
     <Content Include="css\styleRe.css" />
     <Content Include="Data.aspx" />
+    <Content Include="dataMember.aspx" />
+    <Content Include="dataUser.aspx" />
     <Content Include="Defult.aspx" />
     <Content Include="donate.aspx" />
     <Content Include="editactivity.aspx" />
@@ -328,6 +334,14 @@
     <Compile Include="Data.aspx.vb">
       <DependentUpon>Data.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dataMember.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>dataMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dataUser.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>dataUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Defult.aspx.designer.vb">
       <DependentUpon>Defult.aspx</DependentUpon>
